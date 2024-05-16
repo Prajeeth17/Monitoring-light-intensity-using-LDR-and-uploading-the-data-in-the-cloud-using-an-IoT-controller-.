@@ -177,9 +177,9 @@ ss.println(sensor_data_buff);
   }
 }
 void LDR() {
-  int ldr_value= digitalRead(ldrpin);      //assign value of LDR sensor to a temporary variable
+  int ldr_value= digitalRead(ldrpin);  //assign value of LDR sensor to a temporary variable
   Serial.println("Intensity="); //print on serial monitor using ""
-  Serial.println(ldr_value);         //display output on serial monitor
+  Serial.println(ldr_value);      //display output on serial monitor
   delay(300);
   }
 ```
