@@ -1,6 +1,7 @@
-# Exp No:3 Monitoring light intensity using LDR and uploading the data in the cloud using an IoT controller
 ## Name: Prajeeth K T
 ## Register No: 212222110034
+
+# Exp No:4 Monitoring light intensity using LDR and uploading the data in the cloud using an IoT controller
 
 # AIM:
 To monitor and upload the light intensity value in the Things mate using Arduino controller.
