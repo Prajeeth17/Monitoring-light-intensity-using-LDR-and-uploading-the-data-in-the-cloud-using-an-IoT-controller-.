@@ -120,7 +120,7 @@ void loop() {
     get_LA66_data_status=false;  
 LDR();     
 char sensor_data_buff[128]="\0";
-snprintf(sensor_data_buff,128,"AT+SENDB=%d,%d,%d,%02X%02X",0,2,2,(short)(ldr_value),
+snprintf(sensor_data_buff,128,"AT+SENDB=%d,%d,%d,%02X%02X",0,2,2,(short)(ldr_value),(short)(ldrpin));
 ss.println(sensor_data_buff);
   }
   if(time_to_at_recvb==true){
